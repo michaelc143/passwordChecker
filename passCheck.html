@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PassCheck
+        </title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type='text/css' href="passCheck.css" />
+    </head>
+    <div class='totalPage'>
+    <body>
+            <h1 class='passHeader'>PassCheck</h1>
+            <p>
+            Please fill out information below about your password to help guide the program for your specifications.
+            </p>
+            <label class='boxIdentifiers'>
+                Does your password require an upper-case letter?
+            </label>
+            <input id='upCaseReq' type='checkbox' />
+            <br />
+            <label class='boxIdentifiers'>
+                Does your password require a number?
+            </label>
+            <input id='numReq' type='checkbox' />
+            <br />
+            <label class='boxIdentifiers'>
+                Does your password require a special character?
+            </label>
+            <input id='specCharReq' type='checkbox' />
+            <br />
+            <label class='boxIdentifiers'>Input your password in the following box then hit submit for results.</label>
+            <input id='passInput' type="password" />
+            <br />
+            <button onclick="checkPass()" id='submitBtn'>Submit password for checking</button>
+        </div>
+        <script src="passCheck.js" id="module"></script>
+    </body>
+</html>

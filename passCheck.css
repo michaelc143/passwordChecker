@@ -1,0 +1,24 @@
+.passHeader {
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.boxIdentifiers {
+    padding: 0.5rem;
+}
+
+.totalPage {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+    width: 50%;
+
+}
