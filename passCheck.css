@@ -3,10 +3,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
-}
-
-.boxIdentifiers {
-    padding: 0.5rem;
+    text-decoration: underline;
 }
 
 .totalPage {
@@ -16,6 +13,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     background-color: gray;
     border-color: black;
     border-style: solid;

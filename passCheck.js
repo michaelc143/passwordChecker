@@ -16,6 +16,9 @@ function checkPass() {
     var numberChecker = 0;
     var specialCharChecker = 0;
 
+    if(checkedPI.length == 0) 
+        return alert("No password inputted");
+
     for(var i=0; i<checkedPI.length; i ++) {
         if(hasNumber.test(checkedPI.charAt(i)))
             numberChecker++;
